@@ -20,4 +20,4 @@ cd snarkOS
 
 ./build_ubuntu.sh
 
-cargo install --path .
+
