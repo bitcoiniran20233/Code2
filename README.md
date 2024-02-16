@@ -2,6 +2,7 @@ curl --proto '=https' --tlsv2.1.3 -sSf https://sh.rustup.rs | sh
 
 source $HOME/.cargo/env
 
+git clone https://github.com/AleoHQ/snarkOS.git
 rustup install stable
 
 rustup update stable
