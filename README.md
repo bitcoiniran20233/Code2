@@ -2,6 +2,13 @@ curl --proto '=https' --tlsv2.1.3 -sSf https://sh.rustup.rs | sh
 
 source $HOME/.cargo/env
 
+git clone https://github.com/AleoHQ/leo
+cd leo
+
+apt install clang gcc libssl-dev pkg-config
+
+cargo install --path .
+
 git clone https://github.com/AleoHQ/snarkOS.git
 rustup install stable
 
