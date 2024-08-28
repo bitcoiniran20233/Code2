@@ -10,7 +10,6 @@ apt install clang gcc libssl-dev pkg-config
 cargo install --path .
 
 git 
-rustup install stable
 
 rustup update stable
 
